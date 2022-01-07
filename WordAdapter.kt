@@ -17,7 +17,7 @@ class WordAdapter(private val letterId: String, context: Context) :
     RecyclerView.Adapter<WordAdapter.WordViewHolder>() {
 
     private val filteredWords: List<String>
-
+// Val will the list the strings for the word gen
     init {
 
         val words = context.resources.getStringArray(R.array.words).toList()

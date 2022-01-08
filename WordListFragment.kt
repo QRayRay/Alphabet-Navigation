@@ -16,7 +16,7 @@ class WordListFragment : Fragment() {
         val LETTER = "letter"
         val SEARCH_PREFIX = "https://www.google.com/search?q="
     }
-
+// note here for function to create corner menu.
     private var _binding: FragmentWordListBinding? = null
     private val binding get() = _binding!!
     private lateinit var letterId: String
